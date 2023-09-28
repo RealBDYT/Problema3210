@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int b;
+    int s;
+
+    cout<<"Cati bani costa o cutie de bomboane??"<<endl;
+    cin>>b;
+
+    cout<<"Cat bani are Gigel??"<<endl;
+    cin>>s;
+
+    cout<<"Cate cuti poate cumpara:"<<" "<<s / b<<" "<<"Lei"<<endl;
+    cout<<"Cati bani ii mai trebuie pentru o cutie:"<<" "<<b - (s % b)<<" "<<"Lei"<<endl;
+
+    return 0;
+}
